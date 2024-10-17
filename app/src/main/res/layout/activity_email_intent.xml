@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmailIntent"
+    android:orientation="vertical"
+    android:background="#041226"
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#5f73b0"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:fontFamily="monospace"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Subject"
+        android:textColorHint="#6B6B6B"
+        android:id="@+id/subject"
+        />
+
+    <EditText
+        android:fontFamily="monospace"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:hint="Body"
+        android:id="@+id/body"
+        android:textColorHint="#6B6B6B"
+        android:gravity="bottom"
+        />
+
+    <Button
+        android:fontFamily="monospace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit"
+        android:backgroundTint="#5f73b0"
+        android:layout_marginTop="20dp"
+        android:text="Send"
+
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:textColor="@color/white"
+        />
+
+</LinearLayout>

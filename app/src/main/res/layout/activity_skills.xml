@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#041226"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5f73b0"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <TextView
+        android:fontFamily="monospace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="SKILLS"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <GridLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:columnCount="3"
+        android:padding="10dp"
+        android:useDefaultMargins="true"
+        tools:context=".WebProjects">
+
+
+        <ImageView
+            android:id="@+id/html"
+            android:layout_width="0dp"
+            android:layout_height="110dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="2.5dp"
+            android:background="#5f73b0"
+            android:padding="30dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/skill1" />
+
+        <ImageView
+            android:id="@+id/css"
+            android:layout_width="0dp"
+            android:layout_height="110dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="2.5dp"
+            android:background="#5f73b0"
+            android:padding="30dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/skill2" />
+
+        <ImageView
+            android:id="@+id/js"
+            android:layout_width="0dp"
+            android:layout_height="110dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="2.5dp"
+            android:background="#5f73b0"
+            android:padding="30dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/skill3" />
+
+        <ImageView
+            android:id="@+id/react"
+            android:layout_width="0dp"
+            android:layout_height="110dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="2.5dp"
+            android:background="#5f73b0"
+            android:padding="30dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/skill4" />
+
+        <ImageView
+            android:id="@+id/node"
+            android:layout_width="0dp"
+            android:layout_height="110dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="2.5dp"
+            android:background="#5f73b0"
+            android:padding="30dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/skill5" />
+
+        <ImageView
+            android:id="@+id/android"
+            android:layout_width="0dp"
+            android:layout_height="110dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="2.5dp"
+            android:background="#5f73b0"
+            android:padding="30dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/skill6" />
+
+        <ImageView
+            android:id="@+id/postgre"
+            android:layout_width="0dp"
+            android:layout_height="110dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="2.5dp"
+            android:background="#5f73b0"
+            android:padding="30dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/skill7" />
+
+        <ImageView
+            android:id="@+id/firebase"
+            android:layout_width="0dp"
+            android:layout_height="110dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="2.5dp"
+            android:background="#5f73b0"
+            android:padding="30dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/skill8" />
+
+        <ImageView
+            android:id="@+id/mongodb"
+            android:layout_width="0dp"
+            android:layout_height="110dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="2.5dp"
+            android:background="#5f73b0"
+            android:padding="30dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/skill9" />
+
+        <ImageView
+            android:id="@+id/figma"
+            android:layout_width="0dp"
+            android:layout_height="110dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="2.5dp"
+            android:background="#5f73b0"
+            android:padding="30dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/skill10" />
+
+        <ImageView
+            android:id="@+id/java"
+            android:layout_width="0dp"
+            android:layout_height="110dp"
+            android:layout_columnWeight="1"
+            android:layout_margin="2.5dp"
+            android:background="#5f73b0"
+            android:padding="30dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/skill11" />
+
+    </GridLayout>
+</LinearLayout>

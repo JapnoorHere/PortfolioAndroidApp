@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Linkedin"
+        android:id="@+id/linkedin"
+        android:icon="@drawable/linkedin"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:title="Github"
+        android:id="@+id/github"
+        android:icon="@drawable/github"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:title="Contact Me"
+        android:id="@+id/contact"
+        android:icon="@drawable/skill1"
+        app:showAsAction="collapseActionView"
+        />
+
+    <item
+        android:title="Email Me"
+        android:id="@+id/email"
+        android:icon="@drawable/skill2"
+        app:showAsAction="collapseActionView"
+        />
+
+
+</menu>

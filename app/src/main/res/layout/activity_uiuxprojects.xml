@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#041226"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5f73b0"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <TextView
+        android:fontFamily="monospace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="UI/UX"
+        android:textAlignment="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        />
+
+    <GridLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:columnCount="2"
+        android:padding="10dp"
+        android:useDefaultMargins="true"
+        tools:context=".WebProjects">
+
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            android:orientation="vertical"
+            android:layout_columnWeight="1"
+            android:layout_margin="2.5dp"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/project5"
+                android:id="@+id/nike"
+                />
+
+            <TextView
+                android:fontFamily="monospace"
+                android:layout_weight="10"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Nike Air Shoes"
+                android:textColor="@color/white"
+                />
+
+        </LinearLayout>
+
+         <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            android:orientation="vertical"
+            android:layout_columnWeight="1"
+            android:layout_margin="2.5dp"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/project6"
+                android:id="@+id/jbl"
+                />
+
+            <TextView
+                android:fontFamily="monospace"
+                android:layout_weight="10"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="JBL Headphones"
+                android:textColor="@color/white"
+                />
+
+        </LinearLayout>
+         <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            android:orientation="vertical"
+            android:layout_columnWeight="1"
+            android:layout_margin="2.5dp"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/project7"
+                android:id="@+id/srishti"
+                />
+
+            <TextView
+                android:fontFamily="monospace"
+                android:layout_weight="10"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Srishti Sanwaad App"
+                android:textColor="@color/white"
+                />
+
+        </LinearLayout>
+         <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            android:orientation="vertical"
+            android:layout_columnWeight="1"
+            android:layout_margin="2.5dp"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/project8"
+                android:id="@+id/lays"
+                />
+
+            <TextView
+                android:fontFamily="monospace"
+                android:layout_weight="10"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Lays Home Page"
+                android:textColor="@color/white"
+                />
+
+        </LinearLayout>
+
+
+    </GridLayout>
+</LinearLayout>
